@@ -1,0 +1,53 @@
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+        background-color: white;
+    }
+    .navber a{
+        text-decoration: none;
+        color: black;
+        margin-right: 2%;
+    } 
+    .navber a:hover{
+        text-decoration:underline;
+    
+    }
+    .navber{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+    background-color: aliceblue;
+    font-size: 1rem;
+    }
+    .nav-profile{
+        background-image: url("Imagas/Crash.webp");
+        background-size:cover ;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+               
+    }
+
+
+
+
+    .google{
+        background-image: url(Imagas/Google.png);
+        background-size:500px;
+        background-repeat: no-repeat;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 0% ;
+        height: 300px;
+        width: 800px;
+
+    }
+
+
+
+    .search{
+
+    }
