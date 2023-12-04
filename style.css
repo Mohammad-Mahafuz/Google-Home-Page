@@ -5,12 +5,12 @@
     body{
         background-color: white;
     }
-    .navber a{
+    a{
         text-decoration: none;
         color: black;
         margin-right: 2%;
     } 
-    .navber a:hover{
+    a:hover{
         text-decoration:underline;
     
     }
@@ -41,13 +41,78 @@
         margin-left: 30%;
         margin-right: 30%;
         margin-top: 0% ;
-        height: 300px;
+        height: 200px;
         width: 800px;
 
     }
 
+    .search-container{
+        border: 2px solid black;
+        height:50px ;
+        width:600px ;
+        border-radius: 30px;
+        margin-left: 26%;
+        margin-top: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+ .search-icon {
+     text-align: left;
+     margin-right: %;
 
-
-    .search{
 
     }
+    .search-gape input{
+        height: 30px;
+     width:450px ;
+     text-align:left;
+     margin-right: 20%;
+     border: none;
+     background-color: none;
+     
+    }
+    .search-container:hover {
+    background-color: rgb(235, 233, 233);
+}       
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 1.5rem;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 3%;
+}
+footer{
+    background-color: aliceblue;
+    height: 178px;
+}
+
+.country{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+.lest-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+   
+
+}
+.lest-section a{
+     margin-right: 40px;
+}
